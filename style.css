@@ -1072,6 +1072,100 @@ footer{
     .customer__logos--para {
       margin-bottom: 8px;
     }
+
+    .services{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .service{
+        width: calc(100% /2 )
+    }
+
+    .quality__wrapper, .steps__wrapper, .values__wrapper{
+        padding: 0 24px;
+    }
+
+    .pricing__bottom{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .pricing__plan, .middle__plan{
+        width: 428px;
+    }
+
+    .pricing__button, .pricing__button--middle{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .testimonials__container{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .testimonials__left{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .testimonials__right{
+        width: 75%;
+        text-align: center;
+    }
+
+    .testimonials__title{
+        margin-top: 64px;
+    }
+
+    .testimonials__para{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .gs__container{
+        margin: 0 32px;
+        padding: 16px;
+    }
+
+    .gs__row{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .gs__left{
+        width: 100%;
+        text-align: center;
+        margin-bottom: 32px;
+    }
+
+    .footer__container{
+        padding: 0 16px;
+    }
+
+    .footer__top--wrapper{
+        flex-wrap: wrap;
+        justify-content: flex-start;
+    }
+
+    .footer__list{
+        width: calc(100% / 3);
+        text-align: left;
+        padding: 0px;
+        padding-bottom: 48px;
+    }
 }
 
 @media (max-width: 728px) {
@@ -1084,5 +1178,149 @@ footer{
       max-width: 80%;
       text-align: center;
       align-items: center;
+    }
+
+    .service{
+        width: 100%;
+    }
+
+    .quality__wrapper{
+        display: flex;
+        flex-direction: column-reverse;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .quality__left{
+        width: 75%;
+        display: flex;
+        align-items: center;
+    }
+
+    .quality__title, .quality__title2, .quality__para{
+        text-align: center;
+    }
+
+    .quality__right{
+        width: 75%;
+        margin-bottom: 24px;
+    }
+
+    .steps__wrapper{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .steps__left{
+        width: 75%;
+        margin-bottom: 24px;
+    }
+
+    .steps__right{
+        width: 75%;
+        margin-left: 0px;
+    }
+
+    .steps__title, .steps__title2, .step__description, .step__header{
+        text-align: center;
+    }
+
+    .step{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .step__text{
+        margin-left: 0px;
+    }
+
+    .step__header{
+        margin-top: 16px;
+    }
+
+    .step__description{
+        max-width: 100%;
+    }
+
+    .values__wrapper{
+        display: flex;
+        flex-direction: column-reverse;
+        justify-content: center;
+        align-items: center; 
+    }
+
+    .values__left{
+        width: 75%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .values__title2, .values__para{
+        text-align: center;
+    }
+
+    .values__right{
+        width: 75%;
+        margin-bottom: 24px;
+    }
+
+    .values__left--wrapper{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .value__top{
+        display: flex;
+        justify-content: center;
+    }
+
+    .pricing__title2, .pricing__para{
+        text-align: center;
+    }
+
+    .testimonials__left{
+        width: 75%;
+    }
+
+    .testimonials__right{
+        padding-left: 0px;
+    }
+
+    .testimonial__para{
+        margin-top: 0px;
+    }
+
+    .testimonial__customer--wrapper{
+        margin-top: 0px;
+    }
+
+    .gs__text{
+        margin-left: 0px;
+    }
+
+    .gs__buttons{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .gs__button{
+        margin-right: 0px;
+        margin-bottom: 16px;
+    }
+
+    .footer__bottom--wrapper{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .footer__bottom--copyright{
+        margin: 24px 0;
     }
 }
